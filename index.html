@@ -15,15 +15,39 @@
 
 <body>
     <div class="web-app-container">
-        <div class="main-container flex grow">
+        <div class="main-container flex grow no-wrap">
             <div class="nav-bar no-shrink"></div>
             <div class="container-right grow flex column">
                 <div class="plan-upgrade no-shrink"></div>
-                <div class="scroll-container grow "></div>
+                <div class="scroll-container grow flex column">
+                    <div class="scroll-nav flex">
+                        <h3>IN EVIDENZA</h3>
+                        <h3>PODCAST</h3>
+                        <h3>CLASSIFICHE</h3>
+                        <h3>GENERI E MOOD</h3>
+                        <h3>NUOVE USCITE</h3>
+                        <h3>SCOPRI</h3>
+                    </div>
+                    <div class="songs-playlist flex grow"></div>
+
+                </div>
             </div>
 
         </div>
-        <div class="player-container no-shrink"></div>
+        <div class="player-container no-shrink flex">
+            <div class="left-side-nav flex ">
+                <div class="container-img-song"><img src="img/sinister.jpeg" alt=""></div>
+                <div class="song-name-container">
+                    <h3>sinister</h3>
+                    <h5>brano</h5>
+                    <h5>nome</h5>
+                </div>
+                <div class="like-folder flex column"></div>
+            </div>
+            <div class="center-side-nav"></div>
+            <div class="right-side-nav"></div>
+
+        </div>
 
     </div>
 </body>
