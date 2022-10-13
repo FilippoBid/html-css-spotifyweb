@@ -18,12 +18,33 @@
         <div class="main-container flex grow no-wrap">
             <!-- barra di sinistra -->
             <div class="nav-bar no-shrink">
-                <div class="nav-icon-container">
-                    <div class="logo-container">
-                        <img src="img/logo-small.svg" alt="" class="spoty-logoS">
-                        <img src="img/logo.svg" alt="" class="spoty-logoB">
-                    </div>
-                    
+                <div class="nav-icon-container flex no-wrap column">
+                    <div class="top-part-nav">
+                        <div class="logo-container">
+
+                            <!-- immagine spotify -->
+                            <img src="img/logo-small.svg" alt="" class="spoty-logoS margb1">
+                            <img src="img/logo.svg" alt="" class="spoty-logoB margb1">
+                        </div>            
+                            <ul>
+                                <li>
+                                    <a href="" class="flex"><i class="fa-solid fa-house margr1"></i><h3>Home</h3></a>
+                                </li>
+                                <li>
+                                    <a href="" class="flex"><i class="fa-solid fa-house margr1"></i><h3>cerca</h3></a>
+                                </li>
+                                <li>
+                                    <a href="" class="flex"><i class="fa-solid fa-house margr1"></i><h3>libreria</h3></a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        <ul class="bot-part-nav">
+                            <li><a href="" class="flex"><i class="fa-solid fa-house margr1"></i><h3>Home</h3></a></li>
+                            <hr>
+                            <li><a href="" class="flex"><i class="fa-solid fa-house margr1"></i><h3>Home</h3></a></li>
+                        </ul>
+
                 </div>
 
             </div>
@@ -49,6 +70,7 @@
         </div>
         <div class="player-container no-shrink flex">
             <div class="left-side-nav flex ">
+
                 <div class="container-img-song"><img src="img/sinister.jpeg" alt=""></div>
                 <div class="song-name-container">
                     <h3>sinister</h3>
@@ -57,8 +79,22 @@
                 </div>
                 <div class="like-folder flex column"></div>
             </div>
-            <div class="center-side-nav"></div>
-            <div class="right-side-nav"></div>
+            <div class="center-side-nav flex no-wrap column">
+                <div class="centernav-icon-container">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="fa-solid fa-play"></i>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-rotate-right"></i>
+
+                </div>
+                <div class="centernav-bar-container"></div>
+            </div>
+            <div class="right-side-nav flex">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-display"></i>
+                <i class="fa-solid fa-volume-high"></i>
+            </div>
 
         </div>
 
