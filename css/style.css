@@ -4,7 +4,7 @@
     margin: 0;
 }
 * {
-    border: 1px dotted red;
+    /* border: 1px dotted red; */
 }
 ul{list-style: none;}
 
@@ -23,9 +23,10 @@ body {
     height: 100vh;
 }
 
-
+.margauto{margin: auto;}
 .margb1{margin-bottom: 1rem;}
 .margr1{margin-right: 1rem;}
+.margl1{margin-left: 1rem;}
 
 .min-w {
     min-width: 300px;
@@ -134,6 +135,7 @@ body {
 .nav-icon-container {
     
     width: 100%;
+    height: 100%;
     padding: 10px;
     justify-content: space-between;
 }
@@ -161,3 +163,9 @@ ul li a {align-items: center;}
 
 ul li a h3{display: none;}
 
+.centernav-bar-container{width: 80%;background-color:white;height: 10px;}
+
+.line{color: white;margin: 0.5rem,0;}
+
+.top-part-nav ul li i{margin: auto;}
+.bot-part-nav li i{margin: auto;}
