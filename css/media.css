@@ -4,8 +4,8 @@
     .nav-icon-container .logo-container .spoty-logoS{display: none;}
     .nav-icon-container .logo-container .spoty-logoB{display: block;}
     ul li a h3{display: inline-block;}
-    .top-part-nav ul li i{margin:none;margin-left: 1rem;}
-    .bot-part-nav li i{margin:none;margin-left: 1rem;}
+    .top-part-nav ul li i{margin:0;margin-left: 1rem;}
+    .bot-part-nav li i{margin:0;margin-left: 1rem;}
  
 } 
 

@@ -6,7 +6,8 @@
 * {
     /* border: 1px dotted red; */
 }
-ul{list-style: none;}
+ul{list-style: none;text-decoration: none;}
+ul li a{text-decoration: none; color: white;}
 
 :root {
     --primary-color: #000000;
@@ -27,6 +28,7 @@ body {
 .margb1{margin-bottom: 1rem;}
 .margr1{margin-right: 1rem;}
 .margl1{margin-left: 1rem;}
+.padd1LR{padding-left: 1rem;padding-right: 1rem;}
 
 .min-w {
     min-width: 300px;
@@ -163,9 +165,12 @@ ul li a {align-items: center;}
 
 ul li a h3{display: none;}
 
-.centernav-bar-container{width: 80%;background-color:white;height: 10px;}
+.centernav-bar-container{width: 80%;}
 
 .line{color: white;margin: 0.5rem,0;}
 
 .top-part-nav ul li i{margin: auto;}
 .bot-part-nav li i{margin: auto;}
+.player-container{background-color: var(--tertiari-color);}
+.songtime-bar{background-color:white;height: 3px; border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px; }
+.centernav-songtime-container{align-items: center;}
