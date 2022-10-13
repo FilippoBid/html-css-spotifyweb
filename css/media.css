@@ -1,6 +1,8 @@
 @media screen and (min-width: 568px){
     .nav-bar{width: 300px;}
     .scroll-nav>h3{display:inline-block; width: calc(90% / 3);}
+    .spoty-logoS{display: none;}
+    .spoty-logoB{display: block;}
  
 } 
 
