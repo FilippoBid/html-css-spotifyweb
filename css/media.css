@@ -3,16 +3,21 @@
     .scroll-nav>h3{display:inline-block; width: calc(90% / 3);}
     .nav-icon-container .logo-container .spoty-logoS{display: none;}
     .nav-icon-container .logo-container .spoty-logoB{display: block;}
-    ul li a h3{display: inline-block;}
+    .top-part-nav ul li a h3{display: inline-block;}
     .top-part-nav ul li i{margin:0;margin-left: 1rem;}
     .bot-part-nav li i{margin:0;margin-left: 1rem;}
- 
+    .line{display: block;}
+    .bot-part-nav li a h3{display:inline-block;}
+    .scroll-nav .content-list li{width: calc(100%/3);}
+    .playlist-container{display: inline-block;}
 } 
 
 
 
 @media screen and (min-width: 768px){
     .scroll-nav>h3{display:inline-block; width: calc(90% / 5);}
+    .scroll-nav .content-list li{width: calc(100%/5);}
+    .card-container{width: calc(100%/4);}
 }
 
 
@@ -22,4 +27,5 @@
 @media screen and (min-width: 992px){
     .scroll-nav>h3{display:inline-block; width: calc(90% / 6);}
     .scroll-nav{width: 80%;}
-} 
+    .card-container{width: calc(100%/6);}
+    .scroll-nav .content-list li{width: calc(100%/6);}} 
