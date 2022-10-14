@@ -300,3 +300,5 @@ body {
 
 .button-update:hover{transform: scale(1.2);}
 
+.songs-playlist *{color: white;}
+.songs-playlist .card-container h4{ color: rgb(58, 58, 58);}
