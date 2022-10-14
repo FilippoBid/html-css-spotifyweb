@@ -8,6 +8,8 @@
     /* border: 1px dotted red; */
 }
 
+
+
 ul {
     list-style: none;
     text-decoration: none;
@@ -289,3 +291,12 @@ body {
 .card-img img{height: 100%; object-fit: cover;}
 
 .songs-playlist >*{width: 100%;}
+
+.cricle-container{border-radius: 50%;overflow: hidden;}
+
+.playlist-container .flex {align-items: center;}
+
+.playlist-container .flex h2 i{font-size: 40px;}
+
+.button-update:hover{transform: scale(1.2);}
+
